@@ -1,0 +1,10 @@
+{
+  "fixturesFolder": false,
+  "pluginsFile": "node_modules/cypress-react-unit-test/plugins/cra-v3",
+  "supportFile": "node_modules/cypress-react-unit-test/support",
+  "testFiles": "**/*.spec.js",
+  "experimentalComponentTesting": true,
+  "componentFolder": "src",
+  "viewportHeight": 1000,
+  "viewportWidth": 1000
+}

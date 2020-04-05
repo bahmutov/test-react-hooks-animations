@@ -14,5 +14,8 @@
     "react-dom": "16.7.0-alpha.0",
     "react-scripts": "3.3",
     "react-spring": "6.1.0"
+  },
+  "devDependencies": {
+    "cypress-react-unit-test": "3.0.0-cypress-mount-mode.9"
   }
 }
