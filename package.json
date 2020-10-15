@@ -1,10 +1,12 @@
 {
   "name": "test-react-hooks-animations",
   "version": "1.0.0",
-  "description": "",
+  "description": "Example testing using cypress-react-unit-test",
   "main": "index.js",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "cypress-expect run --passing 1",
+    "update:badges": "update-badge cypress cypress-react-unit-test"
   },
   "keywords": [],
   "author": "",
@@ -16,6 +18,9 @@
     "react-spring": "6.1.0"
   },
   "devDependencies": {
-    "cypress-react-unit-test": "3.0.0-cypress-mount-mode.9"
+    "cypress": "5.3.0",
+    "cypress-expect": "2.1.2",
+    "cypress-react-unit-test": "4.16.0",
+    "dependency-version-badge": "1.5.0"
   }
 }
